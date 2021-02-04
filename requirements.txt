@@ -1,0 +1,5 @@
+uvicorn
+fastapi
+fastapi-sqlalchemy
+databases[sqlite]
+fastapi-users[sqlalchemy,oauth]

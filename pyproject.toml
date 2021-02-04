@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mayaquestapi"
+version = "0.0.1"
+description = "API Code for MayaQuest"
+authors = ["Mayank Johri <mayankjohri@gmail.com>"]
+license = "GNU 3.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+FastAPI-SQLAlchemy = "^0.2.1"
+fastapi = "^0.63.0"
+databases = {extras = ["sqlite"], version = "^0.4.1"}
+fastapi-users = {extras = ["sqlalchemy", "oauth"], version = "^4.0.0"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
